@@ -1,1 +1,157 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Winter Essentials & Portfolio</title>
+    <style>
+        /* โทนสีและสไตล์ Gothic / Dark Vintage */
+        body {
+            background-color: #121110;
+            color: #d1c7bd;
+            font-family: 'Courier New', Courier, serif, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
 
+        .container {
+            max-width: 650px;
+            width: 100%;
+            background-color: #1a1816;
+            border: 1px solid #38332e;
+            padding: 25px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+        }
+
+        h1, h2 {
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            text-align: center;
+            color: #e6dfd5;
+            letter-spacing: 1px;
+        }
+
+        .divider {
+            border-bottom: 1px dashed #4a423a;
+            margin: 20px 0;
+        }
+
+        /* เครื่องเล่นเพลง */
+        .music-player {
+            background-color: #24201c;
+            border: 1px solid #4a423a;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 25px;
+            border-radius: 4px;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 10px;
+            filter: invert(90%); /* ปรับสีเครื่องเล่นเพลงให้เข้ากับธีมมืด */
+        }
+
+        /* โซนโปรไฟล์และลิงก์ */
+        .profile-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .btn-facebook {
+            display: inline-block;
+            background-color: #2b2621;
+            color: #e6dfd5;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 1px solid #5a5045;
+            transition: 0.3s;
+            margin-top: 10px;
+        }
+
+        .btn-facebook:hover {
+            background-color: #423a32;
+            color: #fff;
+        }
+
+        /* ส่วนเลขบัญชี */
+        .bank-info {
+            background-color: #211e1a;
+            border-left: 3px solid #736456;
+            padding: 12px 15px;
+            margin: 20px 0;
+            font-size: 0.95em;
+        }
+
+        /* โซนรีวิว / เครดิต */
+        .review-card {
+            background: #221f1c;
+            border: 1px solid #38332e;
+            padding: 12px;
+            margin-bottom: 12px;
+            font-style: italic;
+            font-size: 0.9em;
+        }
+
+        .review-author {
+            text-align: right;
+            font-style: normal;
+            font-weight: bold;
+            color: #8c7f73;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>My Winter Essentials</h1>
+    <p style="text-align: center; font-size: 0.85em; color: #8c7f73;">✦ Dark Vintage & Gothic Aesthetic ✦</p>
+    
+    <!-- 1. ส่วนเครื่องเล่นเพลง Background / Music Player -->
+    <div class="music-player">
+        <span style="font-size: 0.9em;">🎵 Background Music: Atmosphere.mp3</span>
+        <audio controls autoplay loop>
+            <source src="your-audio-file.mp3" type="audio/mpeg">
+            เบราว์เซอร์ของคุณไม่รองรับการเล่นเสียง
+        </audio>
+    </div>
+
+    <!-- 2. ลิงก์ Facebook และโปรไฟล์ -->
+    <div class="profile-section">
+        <h2>Contact & Profile</h2>
+        <p>ยินดีต้อนรับสู่พื้นที่แสดงผลงานและช่องทางการติดต่อ</p>
+        <a href="https://facebook.com" target="_blank" class="btn-facebook">🌐 ไปยัง Facebook Profile</a>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- 3. ช่องทางชำระเงิน / เลขบัญชี -->
+    <h2>Payment Info</h2>
+    <div class="bank-bank-info bank-info">
+        <p style="margin: 3px 0;"><strong>ธนาคาร:</strong> กสิกรไทย (KBANK)</p>
+        <p style="margin: 3px 0;"><strong>เลขบัญชี:</strong> xxx-x-xxxxx-x</p>
+        <p style="margin: 3px 0;"><strong>ชื่อบัญชี:</strong> ชื่อ-นามสกุล</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- 4. เครดิต & รีวิวจากลูกค้า -->
+    <h2>Reviews & Credits</h2>
+    
+    <div class="review-card">
+        "งานสวยประทับใจมากค่ะ โทนสีและมู้ดตรงตามที่อยากได้เป๊ะเลย บริการดีส่งงานไวค่ะ"
+        <div class="review-author">- คุณ A*** (ลูกค้าบริการงานวาด)</div>
+    </div>
+
+    <div class="review-card">
+        "คุยง่าย งานละเอียด คุ้มค่ามากครับ แนะนำเลยครับผม"
+        <div class="review-author">- คุณ B*** (เครดิตงานป้าย)</div>
+    </div>
+
+</div>
+
+</body>
+</html>
